@@ -4,21 +4,17 @@
  * @Author: Marte
  * @Date:   2018-06-05 14:22:53
  * @Last Modified by:   Marte
-<<<<<<< HEAD
- * @Last Modified time: 2018-06-08 08:35:00
-=======
- * @Last Modified time: 2018-06-08 08:54:59
->>>>>>> origin/wangzhongen
+ * @Last Modified time: 2018-06-08 20:46:17
  */
 namespace App\model;
 
 use Illuminate\Database\Eloquent\Model;
 use App\model\CommonModel;
-class NodeModel extends CommonModel
+class UserInfoModel extends CommonModel
 {
 
 
-        public $table='node';
+        public $table='user_info';
         public $updated_at=false;
         public $created_at=false;
 
@@ -41,14 +37,7 @@ class NodeModel extends CommonModel
              return self::destroy($id);
         }
 
-        public static function getList($id)
-        {
-<<<<<<< HEAD
-           return self::where('pid', $id)->first();
-=======
-           return self::where('pid','=',$id)->get();
->>>>>>> origin/wangzhongen
-        }
+
 
 
 }

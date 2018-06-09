@@ -39,43 +39,41 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="panel panel-default">
-                    <div class="panel-heading">权限添加</div>
+                    <div class="panel-heading">用户详细信息</div>
                     <div class="panel-body">
                         <div class="col-md-6">
-<<<<<<< HEAD
-                            <form action="userDo" method="post">
+                            <form action="userInfoDo" method="post">
                                 {{csrf_field()}}
-                                 <div class="form-group">
-                                    <label>权限名称</label>
-                                    <input class="form-control" name="nodeName" placeholder="角色名称">
+
+                                <div class="form-group">
+                                    <label>邮箱</label>
+                                    <input class="form-control" name="eamil" placeholder="邮箱">
                                 </div>
                                 <div class="form-group">
-                                    <label>控制器名称</label>
-                                    <input class="form-control" name="action" placeholder="控制器名称">
+                                    <label>真实姓名</label>
+                                    <input class="form-control" name="realName" placeholder="真实姓名">
                                 </div>
                                 <div class="form-group">
-                                    <label>方法名称</label>
-                                    <input class="form-control" name="nodeName" placeholder="方法名称">
+                                    <label>身份证号</label>
+                                    <input class="form-control" name="idCard" placeholder="身份证号">
+                                </div>
+                                <div class="form-group">
+                                    <label>性别</label>
+                                    <input class="form-control" name="sex" placeholder="性别">
+                                </div>
+                                <div class="form-group">
+                                    <label>头像</label>
+                                    <input class="form-control" name="img" placeholder="头像">
+                                </div>
+                                <div class="form-group">
+                                    <label>零钱</label>
+                                    <input class="form-control" name="money" placeholder="零钱">
+                                </div>
+                                <div class="form-group">
+                                    <label>第三方登录方式</label>
+                                    <input class="form-control" name="loginStatus" placeholder="第三方登录方式">
                                 </div>
 
-
-=======
-                            <form action="nodeDo" method="post">
-                                {{csrf_field()}}
-                                 <div class="form-group">
-                                    <label>权限名称</label>
-                                    <input class="form-control" name="nodeName" placeholder="权限名称">
-                                </div>
-                                <div class="form-group">
-                                    <label>控制器名称</label>
-                                    <input class="form-control" name="controller" placeholder="控制器名称">
-                                </div>
-                                <div class="form-group">
-                                    <label>方法名称</label>
-                                    <input type="hidden" name="pid" value="<?= isset($_GET['id']) ?$_GET['id'] :0;?>">
-                                    <input class="form-control" name="action" placeholder="方法名称">
-                                </div>
->>>>>>> origin/wangzhongen
                                 <button type="submit" class="btn btn-primary">Submit Button</button>
                                 <button type="reset" class="btn btn-default">Reset Button</button>
                             </div>

@@ -9,6 +9,7 @@ use Symfony\Component\HttpFoundation\Session\Session;
 use Illuminate\Support\Facades\Input;
 use Redirect;
 use App\model\CommonModel;
+<<<<<<< HEAD
 class CommonController extends Controller
 {
 
@@ -20,6 +21,33 @@ class CommonController extends Controller
     public function controllerName()
     {
        $controller=CommonModel::getActionAndControllerName()['controller'];
+=======
+use App\model\roleModel;
+class CommonController extends Controller
+{
+    public function __construct()
+    {
+
+            // if(empty($this->auth()))
+            // {
+            //     // echo 1;die;
+            //     echo "<script>alert('没有此权限');location.href='indexIndex'</script>";
+            // }
+    }
+
+
+    public function auth()
+    {
+    $controller = $this->controllerName()['controllerName'];
+
+    $action = $this->controllerName()['actionName'];
+    $lsAuth = RoleModel::authUser(1,$controller,$action);
+    return $lsAuth;
+   }
+    public function controllerName()
+    {
+       $controller=CommonModel::getActionAndControllerName();
+>>>>>>> origin/wangzhongen
        return $controller;
     }
 

@@ -4,30 +4,23 @@
  * @Author: Marte
  * @Date:   2018-06-05 14:22:53
  * @Last Modified by:   Marte
-<<<<<<< HEAD
- * @Last Modified time: 2018-06-08 00:38:04
-=======
- * @Last Modified time: 2018-06-08 17:09:29
->>>>>>> origin/wangzhongen
+ * @Last Modified time: 2018-06-08 20:03:10
  */
 namespace App\model;
 
 use Illuminate\Database\Eloquent\Model;
 use App\model\CommonModel;
-<<<<<<< HEAD
-=======
 use App\model\AdminModel;
 use DB;
->>>>>>> origin/wangzhongen
-class RoleModel extends CommonModel
+class RefundModel extends CommonModel
 {
 
 
-        public $table='role';
+        public $table='refund';
         public $updated_at=false;
         public $created_at=false;
         //指定允许批量赋值的字段
-        protected  $fillable=['roleName'];
+        protected  $fillable=['refundName'];
         public static  function show()
         {
               // return json_decode(json_encode(Exam::all()),true);
@@ -45,8 +38,6 @@ class RoleModel extends CommonModel
              return self::destroy($id);
         }
 
-<<<<<<< HEAD
-=======
         public static function  getRole($id)
         {
         // echo $id;die;
@@ -143,6 +134,5 @@ public static function authUser($adminId,$controller,$action)
         $nodeArr=json_decode(json_encode($node),true);
         return $nodeArr;
     }
->>>>>>> origin/wangzhongen
 
 }
