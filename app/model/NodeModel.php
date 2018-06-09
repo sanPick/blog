@@ -5,10 +5,14 @@
  * @Date:   2018-06-05 14:22:53
  * @Last Modified by:   Marte
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @Last Modified time: 2018-06-08 08:35:00
 =======
  * @Last Modified time: 2018-06-08 08:54:59
 >>>>>>> origin/wangzhongen
+=======
+ * @Last Modified time: 2018-06-08 08:35:00
+>>>>>>> origin/huanghan
  */
 namespace App\model;
 
@@ -44,10 +48,14 @@ class NodeModel extends CommonModel
         public static function getList($id)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
            return self::where('pid', $id)->first();
 =======
            return self::where('pid','=',$id)->get();
 >>>>>>> origin/wangzhongen
+=======
+           return self::where('pid', $id)->first();
+>>>>>>> origin/huanghan
         }
 
 

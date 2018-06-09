@@ -39,53 +39,31 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="panel panel-default">
-                    <div class="panel-heading">权限添加</div>
+                    <div class="panel-heading">产品添加</div>
                     <div class="panel-body">
                         <div class="col-md-6">
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> origin/huanghan
-                            <form action="userDo" method="post">
+                            <form action="productCatupdate" method="post">
                                 {{csrf_field()}}
-                                 <div class="form-group">
-                                    <label>权限名称</label>
-                                    <input class="form-control" name="nodeName" placeholder="角色名称">
+                                <div class="form-group">
+                                    <label>产品名称</label>
+                                    <input class="form-control" name="catName" placeholder="产品名称">
+                                </div>s
+                                <div class="form-group">
+                                    <label>产品描述</label>
+                                    <input class="form-control" name="description" placeholder="产品描述">
                                 </div>
                                 <div class="form-group">
-                                    <label>控制器名称</label>
-                                    <input class="form-control" name="action" placeholder="控制器名称">
+                                    <label>利率最低</label>
+                                    <input class="form-control" name="proPriceCatMin" placeholder="产品利率最低">
                                 </div>
                                 <div class="form-group">
-                                    <label>方法名称</label>
-                                    <input class="form-control" name="nodeName" placeholder="方法名称">
+                                    <label>利率最高</label>
+                                    <input class="form-control" name="proPriceCatMax" placeholder="产品利率最高">
                                 </div>
-
-
-<<<<<<< HEAD
-=======
-                            <form action="nodeDo" method="post">
-                                {{csrf_field()}}
-                                 <div class="form-group">
-                                    <label>权限名称</label>
-                                    <input class="form-control" name="nodeName" placeholder="权限名称">
-                                </div>
-                                <div class="form-group">
-                                    <label>控制器名称</label>
-                                    <input class="form-control" name="controller" placeholder="控制器名称">
-                                </div>
-                                <div class="form-group">
-                                    <label>方法名称</label>
-                                    <input type="hidden" name="pid" value="<?= isset($_GET['id']) ?$_GET['id'] :0;?>">
-                                    <input class="form-control" name="action" placeholder="方法名称">
-                                </div>
->>>>>>> origin/wangzhongen
-=======
->>>>>>> origin/huanghan
                                 <button type="submit" class="btn btn-primary">Submit Button</button>
                                 <button type="reset" class="btn btn-default">Reset Button</button>
                             </div>
-                        </form>
+                        </form>s
                     </div>
                 </div>
             </div><!-- /.col-->

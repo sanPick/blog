@@ -10,6 +10,9 @@ use Illuminate\Support\Facades\Input;
 use Redirect;
 use App\model\CommonModel;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/huanghan
 class CommonController extends Controller
 {
 
@@ -21,6 +24,7 @@ class CommonController extends Controller
     public function controllerName()
     {
        $controller=CommonModel::getActionAndControllerName()['controller'];
+<<<<<<< HEAD
 =======
 use App\model\roleModel;
 class CommonController extends Controller
@@ -48,6 +52,8 @@ class CommonController extends Controller
     {
        $controller=CommonModel::getActionAndControllerName();
 >>>>>>> origin/wangzhongen
+=======
+>>>>>>> origin/huanghan
        return $controller;
     }
 

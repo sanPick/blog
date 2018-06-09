@@ -5,20 +5,27 @@
  * @Date:   2018-06-05 14:22:53
  * @Last Modified by:   Marte
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @Last Modified time: 2018-06-08 00:38:04
 =======
  * @Last Modified time: 2018-06-08 17:09:29
 >>>>>>> origin/wangzhongen
+=======
+ * @Last Modified time: 2018-06-08 00:38:04
+>>>>>>> origin/huanghan
  */
 namespace App\model;
 
 use Illuminate\Database\Eloquent\Model;
 use App\model\CommonModel;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use App\model\AdminModel;
 use DB;
 >>>>>>> origin/wangzhongen
+=======
+>>>>>>> origin/huanghan
 class RoleModel extends CommonModel
 {
 
@@ -45,6 +52,7 @@ class RoleModel extends CommonModel
              return self::destroy($id);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         public static function  getRole($id)
@@ -144,5 +152,7 @@ public static function authUser($adminId,$controller,$action)
         return $nodeArr;
     }
 >>>>>>> origin/wangzhongen
+=======
+>>>>>>> origin/huanghan
 
 }
