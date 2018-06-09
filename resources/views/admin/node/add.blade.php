@@ -42,7 +42,6 @@
                     <div class="panel-heading">权限添加</div>
                     <div class="panel-body">
                         <div class="col-md-6">
-<<<<<<< HEAD
                             <form action="userDo" method="post">
                                 {{csrf_field()}}
                                  <div class="form-group">
@@ -59,23 +58,6 @@
                                 </div>
 
 
-=======
-                            <form action="nodeDo" method="post">
-                                {{csrf_field()}}
-                                 <div class="form-group">
-                                    <label>权限名称</label>
-                                    <input class="form-control" name="nodeName" placeholder="权限名称">
-                                </div>
-                                <div class="form-group">
-                                    <label>控制器名称</label>
-                                    <input class="form-control" name="controller" placeholder="控制器名称">
-                                </div>
-                                <div class="form-group">
-                                    <label>方法名称</label>
-                                    <input type="hidden" name="pid" value="<?= isset($_GET['id']) ?$_GET['id'] :0;?>">
-                                    <input class="form-control" name="action" placeholder="方法名称">
-                                </div>
->>>>>>> origin/wangzhongen
                                 <button type="submit" class="btn btn-primary">Submit Button</button>
                                 <button type="reset" class="btn btn-default">Reset Button</button>
                             </div>

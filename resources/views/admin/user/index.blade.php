@@ -6,7 +6,6 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<<<<<<< HEAD
 <title>Lumino - </title>
 
 <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -18,8 +17,6 @@
 <script src="js/html5shiv.js"></script>
 <script src="js/respond.min.js"></script>
 <![endif]-->
-=======
->>>>>>> origin/wangzhongen
 @extends('layout.base')
 </head>
 

@@ -57,11 +57,7 @@
                                    <tr class="active" >
                                         <td class="active"><?= $v['roleId']?></td>
                                         <td class="active"><?= $v['roleName']?></td>
-<<<<<<< HEAD
                                         <td class="active"><a href="" class="page-header">分配管理员</a>   <a href="" class="page-header">分配权限</a></td>
-=======
-                                        <td class="active"><a href="setAdmin?id=<?= $v['roleId']?>" class="page-header">分配管理员</a>   <a href="setNode?id=<?= $v['roleId']?>" class="page-header">分配权限</a></td>
->>>>>>> origin/wangzhongen
                                         <td class="active"><a href="" class="page-header">删除</a>
                                             <a href="" class="page-header"> 修改</a>
                                         </td>

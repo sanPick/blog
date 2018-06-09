@@ -13,11 +13,7 @@
             <li><a href="panels.html"><span class="glyphicon glyphicon-info-sign"></span> Alerts &amp; Panels</a></li>
             <li class="parent ">
                 <a href="">
-<<<<<<< HEAD
                     <span class="glyphicon glyphicon-list"></span> 用户权限管理 <span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"><em class="glyphicon glyphicon-s glyphicon-plus"></em></span>
-=======
-                    <span class="glyphicon glyphicon-list"></span> 权限菜单 <span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"><em class="glyphicon glyphicon-s glyphicon-plus"></em></span>
->>>>>>> origin/wangzhongen
                 </a>
                 <ul class="children collapse" id="sub-item-1">
                     <li>
@@ -35,10 +31,6 @@
                             <span class="glyphicon glyphicon-share-alt"></span> 权限管理
                         </a>
                     </li>
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/wangzhongen
                 </ul>
             </li>
             <li role="presentation" class="divider"></li>
