@@ -33,10 +33,14 @@
         <div class="row">
             <div class="col-lg-12">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <h3 class="page-header"><a href="nodeAdd">添加权限</a></h3>
 =======
                 <h3 class="page-header"><a href="nodeAdd?id=<?php echo  isset($_GET['id'])?$_GET['id']:0;?>">添加权限</a></h3>
 >>>>>>> origin/wangzhongen
+=======
+                <h3 class="page-header"><a href="nodeAdd">添加权限</a></h3>
+>>>>>>> origin/huanghan
 
             </div>
         </div><!--/.row-->
@@ -61,11 +65,15 @@
                                         <td class="active">操作</td>
                                     </tr>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <?php foreach($data as $k=>$v){?>
 =======
                                     <?php foreach($data as $k=>$v){
                                         ?>
 >>>>>>> origin/wangzhongen
+=======
+                                    <?php foreach($data as $k=>$v){?>
+>>>>>>> origin/huanghan
                                    <tr class="active" >
                                         <td class="active"><?= $v['nodeId']?></td>
                                         <td class="active"><a href="nodeIndex?id=<?= $v['nodeId']?>"><?= $v['nodeName']?></a></td>

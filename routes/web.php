@@ -12,6 +12,7 @@
 */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 Route::get('/',function(){
@@ -52,6 +53,8 @@ Route::get('/',function(){
 
 =======
 >>>>>>> origin/wangzhongen
+=======
+>>>>>>> origin/huanghan
 Route::get('/', function () {
     return view('welcome');
 });
@@ -79,6 +82,7 @@ Route::any("adminAdd","Admin\AdminController@add");
 Route::any("adminDo","Admin\AdminController@adminDo");
 Route::any("nodeIndex","Admin\NodeController@index");
 Route::any("nodeAdd","Admin\NodeController@add");
+<<<<<<< HEAD
 Route::any("nodeDo","Admin\NodeController@nodeDo");
 Route::any("setAdmin","Admin\RoleController@setAdmin");
 Route::any("addAdmin","Admin\RoleController@addAdmin");
@@ -156,3 +160,26 @@ Route::any("userInfoIndex","Admin\UserInfoController@index");
 Route::any("userInfoAdd","Admin\UserInfoController@add");
 Route::any("userInfoDo","Admin\UserInfoController@refundDo");
 >>>>>>> origin/wangzhongen
+=======
+Route::any("nodeDo","Admin\NodeController@adminDo");
+Route::any("memberIndex","Admin\MemberController@index");
+Route::any("memberAdd","Admin\MemberController@add");
+Route::any("memberDo","Admin\MemberController@memberDo");
+Route::any("memberDel","Admin\MemberController@memberDel");
+Route::any("update","Admin\MemberController@update");
+Route::any("productCatIndex","Admin\ProductCatController@index");
+Route::any("productCatAdd","Admin\ProductCatController@add");
+Route::any("productCatDo","Admin\ProductCatController@productCatDo");
+Route::any("productCatDel","Admin\ProductCatController@productCatDel");
+Route::any("productCatupdate","Admin\ProductCatController@productCatupdate");
+
+Route::any("productIndex","Admin\ProductController@index");
+Route::any("productAdd","Admin\ProductController@add");
+Route::any("productDo","Admin\ProductController@productDo");
+//Route::any("productDel","Admin\ProductController@productCatDel");
+//Route::any("productupdate","Admin\ProductController@productCatupdate");
+
+
+
+
+>>>>>>> origin/huanghan
