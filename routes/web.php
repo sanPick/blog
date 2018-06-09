@@ -11,6 +11,7 @@
 |
 */
 
+<<<<<<< HEAD
 
 Route::get('/',function(){
     return view('borrow.show');
@@ -65,3 +66,17 @@ Route::any('imgDel','Admin\ImgController@del');
 
 Route::any('indexIndex','Home\IndexController@index');
 Route::any('productShow','Home\ProductController@show');
+=======
+Route::get('/', function () {
+    return view('welcome');
+});
+
+// Route::get('index',['uses'=>"Lianxi2Controller@index"]);
+Route::any('index','Admin\Lianxi1Controller@index');
+Route::post('add','Admin\Lianxi1Controller@add');
+Route::post('save','Admin\Lianxi1Controller@save');
+Route::any('hao','Admin\Lianxi2Controller@hao');
+Route::get('show','Admin\Lianxi1Controller@show');
+Route::get('del','Admin\Lianxi1Controller@del');
+Route::get('up','Admin\Lianxi1Controller@up');
+>>>>>>> parent of 8854738... 刘祎凡
