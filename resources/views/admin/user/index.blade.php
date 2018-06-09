@@ -7,9 +7,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> origin/huanghan
 <title>Lumino - </title>
 
 <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -21,11 +18,8 @@
 <script src="js/html5shiv.js"></script>
 <script src="js/respond.min.js"></script>
 <![endif]-->
-<<<<<<< HEAD
 =======
 >>>>>>> origin/wangzhongen
-=======
->>>>>>> origin/huanghan
 @extends('layout.base')
 </head>
 
