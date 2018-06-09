@@ -14,14 +14,10 @@
             <li class="parent ">
                 <a href="">
 <<<<<<< HEAD
-<<<<<<< HEAD
                     <span class="glyphicon glyphicon-list"></span> 用户权限管理 <span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"><em class="glyphicon glyphicon-s glyphicon-plus"></em></span>
 =======
                     <span class="glyphicon glyphicon-list"></span> 权限菜单 <span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"><em class="glyphicon glyphicon-s glyphicon-plus"></em></span>
 >>>>>>> origin/wangzhongen
-=======
-                    <span class="glyphicon glyphicon-list"></span> 用户权限管理 <span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"><em class="glyphicon glyphicon-s glyphicon-plus"></em></span>
->>>>>>> origin/huanghan
                 </a>
                 <ul class="children collapse" id="sub-item-1">
                     <li>
@@ -40,12 +36,9 @@
                         </a>
                     </li>
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 
 >>>>>>> origin/wangzhongen
-=======
->>>>>>> origin/huanghan
                 </ul>
             </li>
             <li role="presentation" class="divider"></li>

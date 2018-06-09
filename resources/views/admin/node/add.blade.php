@@ -43,9 +43,6 @@
                     <div class="panel-body">
                         <div class="col-md-6">
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> origin/huanghan
                             <form action="userDo" method="post">
                                 {{csrf_field()}}
                                  <div class="form-group">
@@ -62,7 +59,6 @@
                                 </div>
 
 
-<<<<<<< HEAD
 =======
                             <form action="nodeDo" method="post">
                                 {{csrf_field()}}
@@ -80,8 +76,6 @@
                                     <input class="form-control" name="action" placeholder="方法名称">
                                 </div>
 >>>>>>> origin/wangzhongen
-=======
->>>>>>> origin/huanghan
                                 <button type="submit" class="btn btn-primary">Submit Button</button>
                                 <button type="reset" class="btn btn-default">Reset Button</button>
                             </div>

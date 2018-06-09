@@ -5,12 +5,9 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Admin\CommonController;
 use App\model\RoleModel;
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 
 >>>>>>> origin/wangzhongen
-=======
->>>>>>> origin/huanghan
 class RoleController extends CommonController
 {
     public function roleDo()
@@ -27,7 +24,6 @@ class RoleController extends CommonController
     public function add()
     {
 
-<<<<<<< HEAD
         return view("admin/Role/add");
     }
 <<<<<<< HEAD
@@ -113,10 +109,6 @@ class RoleController extends CommonController
 
 
 >>>>>>> origin/wangzhongen
-=======
-        return view("admin/role/add");
-    }
->>>>>>> origin/huanghan
 }
 
 
